@@ -1,3 +1,6 @@
+
+// Iterate with JavaScript While Loops
+
 const myArray = [];
 
 let i = 5;
