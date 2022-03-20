@@ -37,8 +37,8 @@ console.log(myArray);
 
 const myArray = [];
 
-for (let i = 1; i < 10; i=i+2) {
-  if(i%2 == 0)
+for (let i = 1; i <= 9; i+=2) {
+  if(i%2 !== 0)
   myArray.push(i);
 }
 
