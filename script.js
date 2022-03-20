@@ -1,5 +1,4 @@
-
-// Iterate with JavaScript While Loops. Item-1
+///// Iterate with JavaScript While Loops. Item-1
 
 const myArray = [];
 
@@ -13,7 +12,7 @@ while (i >= 0) {
 
 
 
-// Iterate with JavaScript While Loops. Item-2
+///// Iterate with JavaScript While Loops. Item-2
 
 const myArray = [];
 
@@ -24,8 +23,7 @@ for (let i = 1; i <= 5; i++) {
 console.log(myArray);
 
 
-// Iterate with JavaScript While Loops. Item-3
-
+///// Iterate with JavaScript While Loops. Item-3
   const myArray = [];
 
   for (let i = 0; i < 10; i=i+2) {
@@ -33,5 +31,17 @@ console.log(myArray);
   }
   
   console.log(myArray);
+
+
+//////Push the odd numbers from 1 through 9 to myArray using a for loop.
+
+const myArray = [];
+
+for (let i = 1; i < 10; i=i+2) {
+  if(i%2 == 0)
+  myArray.push(i);
+}
+
+console.log(myArray);
 
 
