@@ -23,3 +23,15 @@ for (let i = 1; i <= 5; i++) {
 
 console.log(myArray);
 
+
+// Iterate with JavaScript While Loops. Item-3
+
+  const myArray = [];
+
+  for (let i = 0; i < 10; i=i+2) {
+    myArray.push(i);
+  }
+  
+  console.log(myArray);
+
+
