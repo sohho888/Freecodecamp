@@ -157,3 +157,17 @@ function countdown(n) {
 console.log(rangeOfNumbers(100,105));
 
 
+////////Mutate an Array Declared with const
+onst s = [5, 7, 2];
+
+function editInPlace() {
+  // Only change code below this line.
+s.sort(function(a,b) {
+ return a - b
+})
+
+  console.log(s);
+}
+
+editInPlace()
+
