@@ -135,3 +135,9 @@ function checkSign(num) {
 console.log(checkSign(-50));
 
 
+
+///////We have defined a function called countdown with one parameter (n). The function should use recursion to return an array containing the integers n through 1 based on the n parameter.
+function countdown(n){
+   return n < 1 ? [] : [n].concat(countdown(n - 1));
+}
+
