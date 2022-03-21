@@ -136,8 +136,24 @@ console.log(checkSign(-50));
 
 
 
-///////We have defined a function called countdown with one parameter (n). The function should use recursion to return an array containing the integers n through 1 based on the n parameter.
-function countdown(n){
+///////Use Recursion to Create a Countdown
+function countdown(n) {
    return n < 1 ? [] : [n].concat(countdown(n - 1));
 }
+
+
+
+//////Use Recursion to Create a Range of Numbers
+  function rangeOfNumbers(startNum, endNum) {
+    if (endNum - startNum === 0) {
+      return [startNum];
+    } else {
+      var numbers = rangeOfNumbers(startNum, endNum - 1);
+      numbers.push(endNum);
+      return numbers;
+    }
+  }
+    
+console.log(rangeOfNumbers(100,105));
+
 
