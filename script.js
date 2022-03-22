@@ -171,3 +171,11 @@ s.sort(function(a,b) {
 
 editInPlace()
 
+
+////////Use the Rest Parameter with Function Parameters
+const sum = (...args) => {
+  return args.reduce((sum, elem) => sum + elem , 0);
+}
+
+console.log(sum(1,2,3222));
+
