@@ -179,3 +179,14 @@ const sum = (...args) => {
 
 console.log(sum(1,2,3222));
 
+
+
+////////Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements
+
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+  const arr = [...list.splice(2)]; 
+  return arr;
+}
+
+console.log(removeFirstTwo(source));
